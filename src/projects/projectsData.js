@@ -1,9 +1,9 @@
 import projectOne from '../assets/project1.png';
 import projectTwo from '../assets/project2.png';
-import projectThree from '../assets/project3.gif'; 
-import projectFour from '../assets/project4.gif'; 
+import projectThree from '../assets/project3.png'; 
+import projectFour from '../assets/project4.png'; 
 import projectFive from '../assets/project5.png'; 
-import projectSix from '../assets/project6.gif'; 
+import projectSix from '../assets/project6.png'; 
 import projectSeven from '../assets/project7.png';
 import projectEight from '../assets/project8.png';
 const projects = {
@@ -35,17 +35,16 @@ const projects = {
     demo: "https://pwaapps-6193e22597e4.herokuapp.com/",
   },
   3: {
-    title: "NoSQL Social Network API",
+    title: "Pokedex Search Tool",
     image: projectThree,
     description: (
       <>
         <p>
-          This is an API for a social network web application built using MongoDB, Express.js, and Mongoose. It allows users to share their thoughts, react to friends' thoughts, and create a friend list.
-        </p>
+        A simple HTML/CSS project that showcases information about various Pokémon using pokemon API.        </p>
       </>
     ),
-    github: "https://github.com/nhunguyen-debug/Nosql-for-rice.git",
-    demo: "http://localhost:3001/api/users",
+    github: "https://github.com/jofiel-nguyen/Pokedex.git",
+    demo: "https://jofiel-nguyen.github.io/Pokedex/",
   },
   4: {
     title: "Get Weather Apps",
@@ -58,7 +57,7 @@ const projects = {
       </>
     ),
     github: "https://github.com/nhunguyen-debug/Get-weather-challenge-for-rice.git",
-    demo: "https://nhunguyen-debug.github.io/Get-weather-challenge-for-rice/",
+    demo: "https://jofiel-nguyen.github.io/RiceWeatherQuest/",
   },
   5: {
     title: "MVC Tech Blog",
@@ -74,17 +73,17 @@ const projects = {
     demo: "http://localhost:3000",
   },
   6: {
-    title: "E-Commerce Back End",
+    title: "Todo-App Web",
     image: projectSix,
     description: (
       <>
         <p>
-          This project involves building the back end for an e-commerce site using Express.js API and Sequelize to interact with a MySQL database.
+        A simple yet powerful task management application designed to help users keep track of their daily tasks, deadlines, and priorities.
         </p>
       </>
     ),
-    github: "https://github.com/nhunguyen-debug/ORM-Wren-Rice.git",
-    demo: "http://localhost:3001/api/tags",
+    github: "https://github.com/jofiel-nguyen/To-do-App.git",
+    demo: "https://jofiel-nguyen.github.io/To-do-App/",
   },
   7: {
     title: "WanderJo App Travel",
